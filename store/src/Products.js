@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Route, Link } from 'react-router-dom';
 import Product from './Product';
 
 export default (props) => (
@@ -7,7 +7,7 @@ export default (props) => (
     <h2>Products</h2>
     <ul>
       <li>
-        <Link> to={`${props.match.url}/product1`}>
+        <Link to={`${props.match.url}/product1`}>
           Product 1
         </Link>
       </li>
